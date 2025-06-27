@@ -1,6 +1,6 @@
 import { useState } from "react";
-import FileUpload from "./fileUpload";
-import Output from './output'
+import FileUpload from "./FileUpload";
+import Output from './Output'
 import Papa from "papaparse";
 
 function reconcileData(internal, provider) {
